@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 42 38% 97%;
+    --foreground: 240 10% 6%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 6%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 6%;
+    --primary: 240 10% 6%;
+    --primary-foreground: 45 60% 92%;
+    --secondary: 42 45% 92%;
+    --secondary-foreground: 240 10% 6%;
+    --muted: 42 20% 92%;
+    --muted-foreground: 240 5% 40%;
+    --accent: 45 65% 52%;
+    --accent-foreground: 240 10% 6%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 42 25% 85%;
+    --input: 42 25% 85%;
+    --ring: 45 65% 52%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 240 10% 6%;
+    --foreground: 45 40% 92%;
+    --card: 240 8% 9%;
+    --card-foreground: 45 40% 92%;
+    --popover: 240 8% 9%;
+    --popover-foreground: 45 40% 92%;
+    --primary: 45 65% 60%;
+    --primary-foreground: 240 10% 6%;
+    --secondary: 240 6% 14%;
+    --secondary-foreground: 45 40% 92%;
+    --muted: 240 6% 14%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 45 65% 55%;
+    --accent-foreground: 240 10% 6%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 6% 18%;
+    --input: 240 6% 18%;
+    --ring: 45 65% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .gold-border-hover {
+    @apply transition-shadow duration-300 hover:shadow-goldhover shadow-gold;
+  }
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-gold-300/30 rounded-2xl;
+  }
+  .progress-ring-track {
+    stroke: hsl(var(--muted));
+  }
+  .progress-ring-fill {
+    stroke: url(#goldRingGradient);
+    transition: stroke-dashoffset 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
