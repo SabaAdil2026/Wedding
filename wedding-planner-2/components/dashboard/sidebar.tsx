@@ -29,7 +29,7 @@ export function Sidebar({ profile, events }: { profile: Profile | null; events: 
         <Heart className="h-5 w-5 fill-gold-500 text-gold-500" />
         <div>
           <p className="font-display text-lg font-bold leading-none">Saba &amp; Adil</p>
-          <p className="text-[11px] uppercase tracking-widest text-muted-foreground">16 Nov 2026</p>
+          <p className="text-[11px] uppercase tracking-widest text-muted-foreground">20 Nov 2026</p>
         </div>
       </div>
 
