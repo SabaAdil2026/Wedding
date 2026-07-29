@@ -31,7 +31,7 @@ export default async function DashboardPage() {
             <h1 className="mt-1 font-display text-3xl font-bold sm:text-4xl">
               Planning Saba &amp; Adil's Wedding
             </h1>
-            <p className="mt-1 text-gold-200/70">16th November 2026 · Overall progress {data.overallCompletion}%</p>
+            <p className="mt-1 text-gold-200/70">20th November 2026 · Overall progress {data.overallCompletion}%</p>
           </div>
           <CountdownRing />
         </CardContent>
