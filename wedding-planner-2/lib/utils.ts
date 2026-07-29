@@ -9,7 +9,7 @@ export function cn(...inputs: ClassValue[]) {
 // ----------------------------------------------------------------------------
 // WEDDING COUNTDOWN ENGINE
 // ----------------------------------------------------------------------------
-export const WEDDING_DATE = new Date('2026-11-16T00:00:00');
+export const WEDDING_DATE = new Date('2026-11-20T00:00:00');
 // Planning window start — first day the couple started actively planning.
 // Adjust in .env or here if you want the "% of planning time elapsed" to reflect
 // your actual start date.
