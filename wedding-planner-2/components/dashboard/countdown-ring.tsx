@@ -25,10 +25,10 @@ export function CountdownRing() {
         <svg width={size} height={size} className="-rotate-90">
           <defs>
             <linearGradient id="goldRingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#0B0B0C" />
-              <stop offset="60%" stopColor="#a86f18" />
-              <stop offset="100%" stopColor="#F2D98E" />
-            </linearGradient>
+  <stop offset="0%" stopColor="#3B0A14" />
+  <stop offset="60%" stopColor="#7A1B2E" />
+  <stop offset="100%" stopColor="#D4AF37" />
+</linearGradient>
           </defs>
           <circle cx={size / 2} cy={size / 2} r={radius} strokeWidth={stroke} fill="none" className="progress-ring-track" />
           <motion.circle
