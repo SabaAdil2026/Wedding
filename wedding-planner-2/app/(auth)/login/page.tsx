@@ -55,7 +55,7 @@ export default function LoginPage() {
         <div className="mb-8 text-center">
           <div className="mb-3 flex items-center justify-center gap-2 text-gold-300">
             <Heart className="h-5 w-5 fill-gold-400" />
-            <span className="text-xs uppercase tracking-[0.3em]">16 · 11 · 2026</span>
+            <span className="text-xs uppercase tracking-widest">20 · 11 · 2026</span>
             <Heart className="h-5 w-5 fill-gold-400" />
           </div>
           <h1 className="font-display text-4xl font-bold text-gold-50 sm:text-5xl">
