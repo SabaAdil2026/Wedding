@@ -35,6 +35,18 @@ const config: Config = {
           800: '#6d4219',
           900: '#5c3819',
         },
+        maroon: {
+          50: '#fbebee',
+          100: '#f2c9d1',
+          200: '#e096a5',
+          300: '#c65f76',
+          400: '#a13850',
+          500: '#7a1b2e',
+          600: '#661624',
+          700: '#4f111c',
+          800: '#3b0a14',
+          900: '#28060d',
+        },
         ivory: '#FBF8F1',
         charcoal: '#0B0B0C',
         // Event colors
@@ -81,8 +93,8 @@ const config: Config = {
         goldhover: '0 0 0 1.5px rgba(212,175,55,0.7), 0 12px 40px rgba(0,0,0,0.18)',
       },
       backgroundImage: {
-        'gold-gradient': 'linear-gradient(135deg, #0B0B0C 0%, #4a3b1a 45%, #D4AF37 100%)',
-        'gold-line': 'linear-gradient(90deg, #0B0B0C 0%, #D4AF37 100%)',
+        'gold-gradient': 'linear-gradient(135deg, #3B0A14 0%, #7A1B2E 45%, #D4AF37 100%)',
+        'gold-line': 'linear-gradient(90deg, #3B0A14 0%, #D4AF37 100%)',
       },
       keyframes: {
         shimmer: {
